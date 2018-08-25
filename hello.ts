@@ -1,3 +1,9 @@
-import {capitalize} from 'lodash';
+const a = 1
+const b = true
 
-console.log("Hello, " + capitalize("typescript") + "!");
+function isBoolean(value: any) {
+    return typeof(value) === 'boolean'
+}
+
+console.log(isBoolean(a))
+console.log(isBoolean(b))
